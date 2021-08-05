@@ -33,19 +33,27 @@ export const projects = [
       },
 ];
 
-export const skills = [
-    {
-        skills: "React",
-    },
+export const skills = [ "HTML 5", 
+                        "CSS 3/4",
+                        "Bootstrap 4/5",
+                        "Materialize",
+                        "JavaScript",
+                        "jQuery",
+                        "React",
+                        "Next.js",
+                        "Node.js",
+                        "Express.js",
+                        "Mongodb",
+                        "Git & Github",
 ];
 
 export const testimonials = [
     {
-        name: "",
-        company: "",
-        quote: "",
+        name: "Ibifuro Myra Steven",
+        company: "Total E & P",
+        quote: "Working with Samuel is great. He's highly skilled and passionate in what he does.",
         image: "",
-        phone: "",
+        phone: "08130455106",
     },
     {
         name: "",
