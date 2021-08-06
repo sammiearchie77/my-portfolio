@@ -17,12 +17,12 @@ export default function Navbar() {
                             Past Work
                     </a>
                     <a 
-                        href="#projects"
+                        href="#skills"
                         className="mr-5 hover:text-white">
                             Skills
                     </a>
                     <a 
-                        href="#projects"
+                        href="#testimonials"
                         className="mr-5 hover:text-white">
                             Testimonials
                     </a>
