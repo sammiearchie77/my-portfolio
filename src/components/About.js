@@ -1,4 +1,5 @@
 import React from 'react'
+import image from './image/sam1.jpg';
 
 export default function About() {
     return (
@@ -7,7 +8,7 @@ export default function About() {
                 <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
                     <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
                         Hi, I'm Samuel .C. Archibong
-                  <br className="hidden lg:inline-block" /> I'm a Front End Developer.
+                  <br className="hidden lg:inline-block" /> <span className="text-blue-400">I'm a Front End Developer.</span>
               </h1>
                     <p className="mb-8 leading-relaxed">
                         Learning has always been a thing of interest to me but when it comes to coding, it's another dimension. The ability to build anything that runs on the Web where everyone anywhere has access to is a thing of beauty. I love to code, I'm passionate about the coding, building Web Solutions and one day becoming "World Class". This is true Art.
@@ -17,19 +18,19 @@ export default function About() {
                             href="#contact"
                             className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
                             Work With Me
-                  </a>
+                        </a>
                         <a
                             href="#projects"
-                            className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
+                            className="ml-4 inline-flex text-gray-900 bg-blue-300 border-0 py-2 px-6 focus:outline-none hover:bg-blue-400 hover:text-white rounded text-lg">
                             See My Past Work
-                  </a>
+                        </a>
                     </div>
                 </div>
                 <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
                     <img
                         className="object-cover object-center rounded"
                         alt="hero"
-                        src="../image/sam.jpg"
+                        src={image}
                     />
                 </div>
             </div>
