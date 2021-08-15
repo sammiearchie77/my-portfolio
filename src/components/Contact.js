@@ -112,7 +112,7 @@ export default function Contact() {
                     </div>
                     <button
                         type="submit"
-                        className="text-white bg-indigo-600 rounded text-lg">
+                        className="text-gray-900 bg-blue-300 hover:bg-blue-400 hover:text-white rounded text-lg">
                         Submit
                         </button>
                 </form>
