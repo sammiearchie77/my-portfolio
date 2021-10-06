@@ -1,5 +1,4 @@
 
-
 export const projects = [
     {
         id: 1,
@@ -34,6 +33,15 @@ export const projects = [
           "My PosBook is a web app that collects record of all transactions keyed by its users. It aim is to help users have a cloud base record of all transactions",
         image: "https://myposbook.com.ng/static/images/pexels-monstera-5849594 (1) 1.svg",
         link: "https://myposbook.com.ng",
+      },
+      {
+        id: 5,
+        title: "ZURI CHAT",
+        subtitle: "Zuri-Chat - For Organizations & Institutions.",
+        description:
+          "Zuri-Chat - For Organizations & Institutions. A fully Integrated way to connect and interact. Create your future with us, network, collaborate",
+        image: "https://zuri.chat/bc07b4fa73a79c224dd2.svg",
+        link: "https://zuri.chat",
       },
 ];
 

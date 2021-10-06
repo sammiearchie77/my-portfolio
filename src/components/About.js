@@ -11,7 +11,7 @@ export default function About() {
                   <br className="hidden lg:inline-block" /> <span className="text-blue-400">I'm a Front End Developer.</span>
               </h1>
                     <p className="mb-8 leading-relaxed">
-                        Learning has always been a thing of interest to me but when it comes to coding, it's another dimension. The ability to build anything that runs on the Web where everyone anywhere has access to is a thing of beauty. I love to code, I'm passionate about the coding, building Web Solutions and one day becoming "World Class". This is true Art.
+                        Learning has always been a thing of interest to me but when it comes to coding, it's another dimension. The ability to build anything that runs on the Web where everyone anywhere can have access to is a thing of beauty. I love to code, I'm passionate about learning, coding, building Web Solutions and one day becoming "World Class". This is my purpose.
               </p>
                     <div className="flex justify-center">
                         <a
