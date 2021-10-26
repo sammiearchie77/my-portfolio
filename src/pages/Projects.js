@@ -1,7 +1,8 @@
-import { Card, CardContent, CardHeader, Link } from '@mui/material';
+import { Card, CardContent, CardHeader } from '@mui/material';
 import React from 'react';
 import { projects } from '../data';
 import styles from '../styles/projects.module.css'
+import { Link } from 'react-router-dom';
 
 
 
