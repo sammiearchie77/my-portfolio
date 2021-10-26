@@ -1,0 +1,12 @@
+.nav {
+    background-color: #000;
+}
+a {
+    color: #fff !important;
+    font-size: 1em;
+    font-weight: 900;
+}
+a:hover {
+    color: tomato !important;
+    text-decoration: none !important;
+}

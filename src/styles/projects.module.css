@@ -1,0 +1,17 @@
+
+.project__img{
+    inset: 0;
+    width: 30%;
+    height: 50%;
+}
+
+.project__banner {
+    background-image: url('../components/images/bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.project__div{
+    display: block;
+	overflow: x;
+    background-attachment: scroll;
+}

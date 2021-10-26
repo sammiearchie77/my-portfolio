@@ -1,0 +1,21 @@
+.home {
+    height: 76vh;
+}
+.main__text{
+    margin-top: 10%;
+    text-align: center;
+}
+.main__text > span {
+    font-weight: 800;
+    font-size: 2.3em;
+}
+.main__text > p {
+    padding: .1em;
+
+}
+.main__picture {
+    margin-top: 10%;
+}
+.main__picture > img {
+    border-radius: 2%;
+}
