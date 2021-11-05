@@ -67,9 +67,18 @@ const Profile = () => {
                    <h6 className={`p-2 text-success`}>{profile[0].job}{'.'}</h6>
                  </Grid>
                  <Grid className={`d-flex justify-content-start`}>
-                   <h6 className={`p-2 text-success text-uppercase font-weight-bold`}>Job Title: </h6>
-                   <h6 className={`p-2 text-success`}>{profile[0].jobTitle}{'.'}</h6>
+                   <h6 className={`p-2 text-success text-uppercase font-weight-bold`}>Per hour: </h6>
+                   <h6 className={`p-2 text-success`}>{`$${profile[0].perhour}`}</h6>
                  </Grid>
+                 <Grid className={`d-flex justify-content-start`}>
+                   <h6 className={`p-2 text-success text-uppercase font-weight-bold`}>Total hours: </h6>
+                   <h6 className={`p-2 text-success`}>{profile[0].hour}{' '} {'Hours.'}</h6>
+                 </Grid>
+                 <Grid className={`d-flex justify-content-start`}>
+                   <h6 className={`p-2 text-success text-uppercase font-weight-bold`}>Salary rate: </h6>
+                   <h6 className={`p-2 text-success`}>{profile[0].salary}{'.'}</h6>
+                 </Grid>
+                 
                 </Item>
               </Grid>
               <Grid item xs={4}>

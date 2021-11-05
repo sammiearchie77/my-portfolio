@@ -13,6 +13,9 @@ export const profile = [
         experience: 3,
         job: 'Freelancing',
         jobTitle: 'Front End Developer',
-        email: ''
+        email: 'chinonsosamuel29@gmail.com',
+        perhour: 50,
+        hour: 40,
+        salary: '$75,513'
     }
 ];

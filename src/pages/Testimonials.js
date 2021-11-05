@@ -10,33 +10,35 @@ export default function Testimonials() {
                 <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-12">
                     Client Testimonials
                 </h1>
-                <div className="d-flex flex-wrap m-4">
+                <div className="d-flex flex-wrap ">
                     {testimonials.map((testimonial) => (
-                        <div key={testimonial.id} className="p-2 col-lg-6 ">
-                            <div className="h-fill bg-gray-800 bg-opacity-40 p-8 rounded">
-                                {/* <TerminalIcon className="block w-8 text-gray-500 mb-4" /> */}
-                                <p className="leading-relaxed mb-6">
-                                    {testimonial.quote}
-                                </p>
-                                <div className="inline-flex items-center">
-                                    <img 
-                                        alt="testimonial"
-                                        src={testimonial.image}
-                                        className="w-12 rounded-full flex-shrink-0 object-cover object-center"
-                                    />
-                                    <span className="flex-grow d-flex flex-col pl-4">
-                                        <span className="title-font font-medium text-white">
-                                            {testimonial.name}
+                        <div key={testimonial.id} className="p-1 col-lg-6 ">
+                         <div className={`card col-lg-10`}>
+                            <div className="d-flex text-secondary bg-gray-800 opacity-50 rounded">
+                                    {/* <TerminalIcon className="block w-8 text-gray-500 mb-4" /> */}
+                                    <p className="font-weight-bold py-4">
+                                        {testimonial.quote}
+                                    </p>
+                                    <div className="">
+                                        <img 
+                                            alt="testimonial"
+                                            src={testimonial.image}
+                                            className="w-75 mt-2 rounded"
+                                        />
+                                        <span className="flex-grow d-flex flex-column">
+                                            <span className="title-font font-medium text-danger font-weight-bolder">
+                                                {testimonial.name}
+                                            </span>
+                                            <span className="font-weight-bolder text-dark">
+                                                {testimonial.company}
+                                            </span>
+                                            {/* <span className="text-gray-500 text-sm uppercase">
+                                                {testimonial.phone}
+                                            </span> */}
                                         </span>
-                                        <span className="text-gray-500 text-sm uppercase">
-                                            {testimonial.company}
-                                        </span>
-                                        {/* <span className="text-gray-500 text-sm uppercase">
-                                            {testimonial.phone}
-                                        </span> */}
-                                    </span>
+                                    </div>
                                 </div>
-                            </div>
+                         </div>
                         </div>
                     ))}
                 </div>
